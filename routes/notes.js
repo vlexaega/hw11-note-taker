@@ -2,16 +2,16 @@ const notes = require('express').Router();
 const { readAndAppend, readFromFile, writeToFile } = require('../helpers/fsUtils');
 const { v4: uuidv4 } = require('uuid');
 
-notes.get('/', (req, res) => {
-    readFromFile.apply('./db/db.json').then((data) => res.json(JSON.parse(data)));
+notes.get("/", (req, res) => {
+    readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 //get notes by ID
-notes.get('/:id', (req, res) => {
+notes.get("/:id", (req, res) => {
     res.json(JSON.parse(data)[req.params.id]);
 });
 
-notes.post('/', (req, res) => {
+notes.post("/", (req, res) => {
     const { title, text } = req.body;
     if(req.body){
         const newTask = {
@@ -28,3 +28,4 @@ notes.post('/', (req, res) => {
 
 //add delete route
 
+module.exports = notes;
