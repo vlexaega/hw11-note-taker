@@ -1,5 +1,5 @@
 
-   # Express.js Challenge: Note Taker https://img.shields.io/badge/License-MIT-yellow.svg
+   # Express.js Challenge: Note Taker
    ## Table of Contents
    - [Description](#description)
    - [Installation](#installation)
@@ -17,6 +17,8 @@
    This can be tested via the deployment link provided below.
    ## Contribution Guidelines
    The repo is opensource and anyone can contribute.
+   ## Credits
+   Columbia University
    
 ## License
 This application is covered under the [MIT License](P) license. https://img.shields.io/badge/License-MIT-yellow.svg
