@@ -7,5 +7,25 @@
         "title": "Test",
         "text": "This is a test note!",
         "id": "29433403-df27-4682-b094-5108a3e624c2"
+    },
+    {
+        "title": "Test",
+        "text": "This is a test note\n",
+        "id": "15f4ab14-23f4-41f2-a784-525524481b0f"
+    },
+    {
+        "title": "Test 2",
+        "text": "Test 2 note",
+        "id": "f7f6a801-d13d-4a50-a90d-7cc76e0110cf"
+    },
+    {
+        "title": "Test",
+        "text": "Note test",
+        "id": "990c7b6b-6315-44a5-a8de-d2b9fa400fb6"
+    },
+    {
+        "title": "Test Note 3",
+        "text": "This is another test note",
+        "id": "d5b5de25-4e10-4219-9315-d0f5b9259965"
     }
 ]
